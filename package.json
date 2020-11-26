@@ -1,0 +1,39 @@
+{
+  "name": "delilah-resto",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/florensantucho/Delilah-resto.git"
+  },
+  "keywords": [
+    "backend",
+    "nodejs",
+    "express",
+    "mySQL",
+    "nodemon",
+    "endpoints"
+  ],
+  "author": "Florencia Santucho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/florensantucho/Delilah-resto/issues"
+  },
+  "homepage": "https://github.com/florensantucho/Delilah-resto#readme",
+
+ 
+
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.2.5",
+    "nodemon": "^2.0.6",
+    "sequelize": "^6.3.5"
+  }
+}
